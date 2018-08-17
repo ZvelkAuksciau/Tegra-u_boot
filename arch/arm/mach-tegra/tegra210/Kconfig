@@ -26,6 +26,15 @@ config TARGET_P2371_2180
 	  card slot, HDMI, USB micro-B port, Ethernet via USB3, USB3 host
 	  port, SATA, PCIe, and two GPIO expansion headers.
 
+config TARGET_KMTI200_2180
+	bool "NVIDIA Tegra210 KMTI200-2180 board"
+	help
+	  KMTI200-2180 is a P2180 CPU board married to custom KMTI board with
+	  dual FPGA MIPI controllers and deserializer for Sony block cameras.
+	  Support for RGB camera (Sony block camera) and LWIR camera (with
+	  BT.656 interface. MicroSD, Ethernet, CAN bus via F105 processor,
+	  2xMacXO2 FPGA's
+
 config TARGET_P2571
 	bool "NVIDIA Tegra210 P2571 base board"
 	help
@@ -44,6 +53,7 @@ config SYS_SOC
 source "board/nvidia/e2220-1170/Kconfig"
 source "board/nvidia/p2371-0000/Kconfig"
 source "board/nvidia/p2371-2180/Kconfig"
+source "board/nvidia/kmti200-2180/Kconfig"
 source "board/nvidia/p2571/Kconfig"
 source "board/nvidia/m3402-0000/Kconfig"
 

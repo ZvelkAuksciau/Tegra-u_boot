@@ -1,0 +1,6 @@
+KMTI200-2180 BOARD
+M:	Matas Razgunas <matas.razgunas@gmail.com>
+S:	Maintained
+F:	board/nvidia/kmti200-2180/
+F:	include/configs/kmti200-2180.h
+F:	configs/kmti200-2180_defconfig

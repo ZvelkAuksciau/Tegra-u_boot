@@ -1,0 +1,12 @@
+if TARGET_KMTI200_2180
+
+config SYS_BOARD
+	default "kmti200-2180"
+
+config SYS_VENDOR
+	default "nvidia"
+
+config SYS_CONFIG_NAME
+	default "kmti200-2180"
+
+endif
